@@ -1,0 +1,16 @@
+name = "LanguageDetect"
+uuid = "cd500c3e-2407-4d3b-a6bb-21ab03710513"
+authors = ["Sean Lee <xmlee97@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+Distributions = "^0.25.49"
+IterTools = "^1.4.0"
+JSON = "^0.21.3"
+julia = "1.4"
