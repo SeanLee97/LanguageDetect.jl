@@ -14,7 +14,7 @@ pt, ro, ru, sk, sl, so, sq, sv, sw, ta, te, th, tl, tr, uk, ur, vi, zh-cn, zh-tw
 # Installation
 
 ```
-julia> using Pkg; Pkg.add("https://github.com/SeanLee97/LanguageDetect.jl.git")
+Pkg.add("LanguageDetect")
 ```
 
 
