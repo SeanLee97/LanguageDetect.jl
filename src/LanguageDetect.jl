@@ -89,8 +89,8 @@ function detect(text::String; max_length::Int = 10000, trials::Int = 7,
 
         for i in 0:max_iters
             weight = alpha / base_freq
-            for j in 1:length(probas)
-                probas[j] *= weight + _word_lang_prob[][ngrams[rand(1:end)]][j]
+            for j in eachindex(probas)
+                @inbounds probas[j] *= weight + _word_lang_prob[][ngrams[rand(1:end)]][j]
             end
             if i % 5 == 0
                 probas /= sum(probas)
@@ -100,8 +100,8 @@ function detect(text::String; max_length::Int = 10000, trials::Int = 7,
             end
         end
 
-        for j in 1:length(lang_probas)
-            lang_probas[j] += probas[j] / trials
+        for j in eachindex(lang_probas)
+            @inbounds lang_probas[j] += probas[j] / trials
         end
     end
 
