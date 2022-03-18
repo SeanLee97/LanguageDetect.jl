@@ -1,7 +1,7 @@
 name = "LanguageDetect"
 uuid = "cd500c3e-2407-4d3b-a6bb-21ab03710513"
 authors = ["Sean Lee <xmlee97@gmail.com>"]
-version = "0.1.1"
+version = "0.1.0"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
