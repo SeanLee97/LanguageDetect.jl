@@ -59,7 +59,7 @@ zh-cn, 0.7142851201451479
 zh-tw, 0.2857148798548521
 ```
 
-# Acknowledge
+# Acknowledgement
 
 This library is a direct port of Google's [language-detection](https://code.google.com/archive/p/language-detection/) library from Java to Julia.
 
